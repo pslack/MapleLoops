@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="HpJbAB" name="MapleLoops" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="ca.maplepost.MapleLoops" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="1" buildRTAS="0" buildAAX="0"
+              pluginName="MapleLoops" pluginDesc="MapleLoops" pluginManufacturer="MaplePost"
+              pluginManufacturerCode="MPLP" pluginCode="MPLP" pluginChannelConfigs=""
+              pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="1"
+              pluginIsMidiEffectPlugin="0" pluginSilenceInIsSilenceOut="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="MapleLoopsAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.MapleLoops"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.1.0"
+              companyName="MaplePost" companyWebsite="http://maplepost.ca"
+              companyEmail="pslack@maplepost.net">
+  <MAINGROUP id="pwWzTk" name="MapleLoops">
+    <GROUP id="{3217BD6C-6BE6-C448-6CCD-23CA17410A40}" name="Source">
+      <FILE id="JnjpeX" name="CefMapleLoopsHandler.cpp" compile="1" resource="0"
+            file="Source/CefMapleLoopsHandler.cpp"/>
+      <FILE id="bqutNs" name="CefMapleLoopsHandler.h" compile="0" resource="0"
+            file="Source/CefMapleLoopsHandler.h"/>
+      <FILE id="lD6cft" name="CefMapleLoopsApp.cpp" compile="1" resource="0"
+            file="Source/CefMapleLoopsApp.cpp"/>
+      <FILE id="TvjnpY" name="CefMapleLoopsApp.h" compile="0" resource="0"
+            file="Source/CefMapleLoopsApp.h"/>
+      <FILE id="gN7nSf" name="Globals.h" compile="0" resource="0" file="Source/Globals.h"/>
+      <FILE id="edChK6" name="CefContext.cpp" compile="1" resource="0" file="Source/CefContext.cpp"/>
+      <FILE id="AQA9SQ" name="CefContext.h" compile="0" resource="0" file="Source/CefContext.h"/>
+      <FILE id="wkLpI1" name="CefContextJob.cpp" compile="1" resource="0"
+            file="Source/CefContextJob.cpp"/>
+      <FILE id="blLp4Q" name="CefContextJob.h" compile="0" resource="0" file="Source/CefContextJob.h"/>
+      <FILE id="V4mp4M" name="CefBrowserObject.cpp" compile="1" resource="0"
+            file="Source/CefBrowserObject.cpp"/>
+      <FILE id="YmdIhP" name="CefBrowserObject.h" compile="0" resource="0"
+            file="Source/CefBrowserObject.h"/>
+      <GROUP id="{E570F24B-47AA-BFE4-155F-9C95D1E77F6A}" name="renderer">
+        <FILE id="KuFCvL" name="client_app_delegates_renderer.cc" compile="1"
+              resource="0" file="Source/renderer/client_app_delegates_renderer.cc"/>
+        <FILE id="ICfCs1" name="client_app_renderer.cc" compile="1" resource="0"
+              file="Source/renderer/client_app_renderer.cc"/>
+        <FILE id="OeOu7j" name="client_app_renderer.h" compile="0" resource="0"
+              file="Source/renderer/client_app_renderer.h"/>
+        <FILE id="e3gGTm" name="client_renderer.cc" compile="1" resource="0"
+              file="Source/renderer/client_renderer.cc"/>
+        <FILE id="BfmmXY" name="client_renderer.h" compile="0" resource="0"
+              file="Source/renderer/client_renderer.h"/>
+        <FILE id="OHPzdC" name="performance_test.cc" compile="1" resource="0"
+              file="Source/renderer/performance_test.cc"/>
+        <FILE id="eJ7npM" name="performance_test.h" compile="0" resource="0"
+              file="Source/renderer/performance_test.h"/>
+        <FILE id="IlvowC" name="performance_test_setup.h" compile="0" resource="0"
+              file="Source/renderer/performance_test_setup.h"/>
+        <FILE id="U5zpHq" name="performance_test_tests.cc" compile="1" resource="0"
+              file="Source/renderer/performance_test_tests.cc"/>
+      </GROUP>
+      <GROUP id="{D38BD922-2906-43CE-8610-A9F6DDFBAA5F}" name="resources">
+        <GROUP id="{B538B17D-77C0-DC56-4D97-471FE89813C8}" name="win">
+          <FILE id="SvsDuL" name="cefclient.exe.manifest" compile="0" resource="1"
+                file="Source/resources/win/cefclient.exe.manifest"/>
+          <FILE id="D4N7KU" name="cefclient.ico" compile="0" resource="1" file="Source/resources/win/cefclient.ico"/>
+          <FILE id="jIwjfH" name="cefclient.rc" compile="0" resource="1" file="Source/resources/win/cefclient.rc"/>
+          <FILE id="zF5Rkn" name="compatibility.manifest" compile="0" resource="1"
+                file="Source/resources/win/compatibility.manifest"/>
+          <FILE id="GK3UDE" name="README-TRANSFER.txt" compile="0" resource="1"
+                file="Source/resources/win/README-TRANSFER.txt"/>
+          <FILE id="K9IM39" name="small.ico" compile="0" resource="1" file="Source/resources/win/small.ico"/>
+        </GROUP>
+        <FILE id="urQiM7" name="binding.html" compile="0" resource="1" file="Source/resources/binding.html"/>
+        <FILE id="CVJvBd" name="dialogs.html" compile="0" resource="1" file="Source/resources/dialogs.html"/>
+        <FILE id="sko5YU" name="localstorage.html" compile="0" resource="1"
+              file="Source/resources/localstorage.html"/>
+        <FILE id="ueloDI" name="logo.png" compile="0" resource="1" file="Source/resources/logo.png"/>
+        <FILE id="OUGfAz" name="osr_test.html" compile="0" resource="1" file="Source/resources/osr_test.html"/>
+        <FILE id="ppx9qR" name="other_tests.html" compile="0" resource="1"
+              file="Source/resources/other_tests.html"/>
+        <FILE id="SwMGDy" name="pdf.html" compile="0" resource="1" file="Source/resources/pdf.html"/>
+        <FILE id="qH5vwk" name="pdf.pdf" compile="0" resource="1" file="Source/resources/pdf.pdf"/>
+        <FILE id="zybM7p" name="performance.html" compile="0" resource="1"
+              file="Source/resources/performance.html"/>
+        <FILE id="DJnac4" name="performance2.html" compile="0" resource="1"
+              file="Source/resources/performance2.html"/>
+        <FILE id="dr21G9" name="preferences.html" compile="0" resource="1"
+              file="Source/resources/preferences.html"/>
+        <FILE id="qtUpQ6" name="response_filter.html" compile="0" resource="1"
+              file="Source/resources/response_filter.html"/>
+        <FILE id="DFo2OW" name="transparency.html" compile="0" resource="1"
+              file="Source/resources/transparency.html"/>
+        <FILE id="zAVVxC" name="urlrequest.html" compile="0" resource="1" file="Source/resources/urlrequest.html"/>
+        <FILE id="VPTLPz" name="window.html" compile="0" resource="1" file="Source/resources/window.html"/>
+        <FILE id="j3zgGT" name="xmlhttprequest.html" compile="0" resource="1"
+              file="Source/resources/xmlhttprequest.html"/>
+      </GROUP>
+      <FILE id="Lv69Qf" name="cefclient_win.cc" compile="1" resource="0"
+            file="Source/cefclient_win.cc"/>
+      <GROUP id="{B1C8856E-FD25-8347-42A1-D2E0232DCC11}" name="common">
+        <FILE id="QQMCSI" name="client_app.cc" compile="1" resource="0" file="Source/common/client_app.cc"/>
+        <FILE id="pnbMuH" name="client_app.h" compile="0" resource="0" file="Source/common/client_app.h"/>
+        <FILE id="xf0nVK" name="client_app_delegates_common.cc" compile="1"
+              resource="0" file="Source/common/client_app_delegates_common.cc"/>
+        <FILE id="kGwXPR" name="client_app_other.cc" compile="1" resource="0"
+              file="Source/common/client_app_other.cc"/>
+        <FILE id="pftQKf" name="client_app_other.h" compile="0" resource="0"
+              file="Source/common/client_app_other.h"/>
+        <FILE id="vi6ROL" name="client_switches.cc" compile="1" resource="0"
+              file="Source/common/client_switches.cc"/>
+        <FILE id="wrSMnX" name="client_switches.h" compile="0" resource="0"
+              file="Source/common/client_switches.h"/>
+        <FILE id="JYZw23" name="scheme_test_common.cc" compile="1" resource="0"
+              file="Source/common/scheme_test_common.cc"/>
+        <FILE id="q76JCS" name="scheme_test_common.h" compile="0" resource="0"
+              file="Source/common/scheme_test_common.h"/>
+      </GROUP>
+      <GROUP id="{ACBF697A-5415-56B1-87F5-1D56493088AA}" name="browser">
+        <FILE id="LGAWt2" name="binding_test.cpp" compile="1" resource="0"
+              file="Source/browser/binding_test.cpp"/>
+        <FILE id="CocDTF" name="binding_test.h" compile="0" resource="0" file="Source/browser/binding_test.h"/>
+        <FILE id="lpLAFS" name="browser_window.cpp" compile="1" resource="0"
+              file="Source/browser/browser_window.cpp"/>
+        <FILE id="hZcwRh" name="browser_window.h" compile="0" resource="0"
+              file="Source/browser/browser_window.h"/>
+        <FILE id="shqOND" name="browser_window_osr_win.cpp" compile="1" resource="0"
+              file="Source/browser/browser_window_osr_win.cpp"/>
+        <FILE id="qaXRGZ" name="browser_window_osr_win.h" compile="0" resource="0"
+              file="Source/browser/browser_window_osr_win.h"/>
+        <FILE id="zTlELK" name="browser_window_std_win.cpp" compile="1" resource="0"
+              file="Source/browser/browser_window_std_win.cpp"/>
+        <FILE id="XJtKnp" name="browser_window_std_win.h" compile="0" resource="0"
+              file="Source/browser/browser_window_std_win.h"/>
+        <FILE id="w4Vq6d" name="bytes_write_handler.cc" compile="1" resource="0"
+              file="Source/browser/bytes_write_handler.cc"/>
+        <FILE id="pUQkc6" name="bytes_write_handler.h" compile="0" resource="0"
+              file="Source/browser/bytes_write_handler.h"/>
+        <FILE id="HNYIB8" name="client_app_browser.cc" compile="1" resource="0"
+              file="Source/browser/client_app_browser.cc"/>
+        <FILE id="AyrRKH" name="client_app_browser.h" compile="0" resource="0"
+              file="Source/browser/client_app_browser.h"/>
+        <FILE id="UmUzf8" name="client_app_delegates_browser.cc" compile="1"
+              resource="0" file="Source/browser/client_app_delegates_browser.cc"/>
+        <FILE id="jFCrgS" name="client_handler.cc" compile="1" resource="0"
+              file="Source/browser/client_handler.cc"/>
+        <FILE id="AhRmhN" name="client_handler.h" compile="0" resource="0"
+              file="Source/browser/client_handler.h"/>
+        <FILE id="lPVMwZ" name="client_handler_osr.cc" compile="1" resource="0"
+              file="Source/browser/client_handler_osr.cc"/>
+        <FILE id="LMIpeW" name="client_handler_osr.h" compile="0" resource="0"
+              file="Source/browser/client_handler_osr.h"/>
+        <FILE id="KWY1gN" name="client_handler_std.cc" compile="1" resource="0"
+              file="Source/browser/client_handler_std.cc"/>
+        <FILE id="r8ebq6" name="client_handler_std.h" compile="0" resource="0"
+              file="Source/browser/client_handler_std.h"/>
+        <FILE id="gXmnVT" name="client_types.h" compile="0" resource="0" file="Source/browser/client_types.h"/>
+        <FILE id="hfgwop" name="dialog_test.cc" compile="1" resource="0" file="Source/browser/dialog_test.cc"/>
+        <FILE id="pOYive" name="dialog_test.h" compile="0" resource="0" file="Source/browser/dialog_test.h"/>
+        <FILE id="IsXBqP" name="geometry_util.cc" compile="1" resource="0"
+              file="Source/browser/geometry_util.cc"/>
+        <FILE id="dOW0wa" name="geometry_util.h" compile="0" resource="0" file="Source/browser/geometry_util.h"/>
+        <FILE id="oyNr6H" name="main_context.cc" compile="1" resource="0" file="Source/browser/main_context.cc"/>
+        <FILE id="Cq1eCD" name="main_context.h" compile="0" resource="0" file="Source/browser/main_context.h"/>
+        <FILE id="QXEGyx" name="main_context_impl.cc" compile="1" resource="0"
+              file="Source/browser/main_context_impl.cc"/>
+        <FILE id="o0ddCa" name="main_context_impl.h" compile="0" resource="0"
+              file="Source/browser/main_context_impl.h"/>
+        <FILE id="plHfDt" name="main_context_impl_win.cc" compile="1" resource="0"
+              file="Source/browser/main_context_impl_win.cc"/>
+        <FILE id="jKZBVp" name="main_message_loop.cc" compile="1" resource="0"
+              file="Source/browser/main_message_loop.cc"/>
+        <FILE id="Xivpoe" name="main_message_loop.h" compile="0" resource="0"
+              file="Source/browser/main_message_loop.h"/>
+        <FILE id="p2YqAj" name="main_message_loop_multithreaded_win.cc" compile="1"
+              resource="0" file="Source/browser/main_message_loop_multithreaded_win.cc"/>
+        <FILE id="wOheGR" name="main_message_loop_multithreaded_win.h" compile="0"
+              resource="0" file="Source/browser/main_message_loop_multithreaded_win.h"/>
+        <FILE id="xQO7nZ" name="main_message_loop_std.cc" compile="1" resource="0"
+              file="Source/browser/main_message_loop_std.cc"/>
+        <FILE id="zaZ676" name="main_message_loop_std.h" compile="0" resource="0"
+              file="Source/browser/main_message_loop_std.h"/>
+        <FILE id="S9raoX" name="osr_dragdrop_events.h" compile="0" resource="0"
+              file="Source/browser/osr_dragdrop_events.h"/>
+        <FILE id="V26iYs" name="osr_dragdrop_win.cc" compile="1" resource="0"
+              file="Source/browser/osr_dragdrop_win.cc"/>
+        <FILE id="nw5Ffx" name="osr_dragdrop_win.h" compile="0" resource="0"
+              file="Source/browser/osr_dragdrop_win.h"/>
+        <FILE id="IwfCx1" name="osr_renderer.cc" compile="1" resource="0" file="Source/browser/osr_renderer.cc"/>
+        <FILE id="tY14sM" name="osr_renderer.h" compile="0" resource="0" file="Source/browser/osr_renderer.h"/>
+        <FILE id="MvstQT" name="osr_window_win.cc" compile="1" resource="0"
+              file="Source/browser/osr_window_win.cc"/>
+        <FILE id="ihXzLi" name="osr_window_win.h" compile="0" resource="0"
+              file="Source/browser/osr_window_win.h"/>
+        <FILE id="Sf55VM" name="preferences_test.cc" compile="1" resource="0"
+              file="Source/browser/preferences_test.cc"/>
+        <FILE id="U0b6FQ" name="preferences_test.h" compile="0" resource="0"
+              file="Source/browser/preferences_test.h"/>
+        <FILE id="UgGkkP" name="resource.h" compile="0" resource="0" file="Source/browser/resource.h"/>
+        <FILE id="LCYXdZ" name="resource_util.h" compile="0" resource="0" file="Source/browser/resource_util.h"/>
+        <FILE id="ARA8k7" name="resource_util_win.cc" compile="1" resource="0"
+              file="Source/browser/resource_util_win.cc"/>
+        <FILE id="ETpgyr" name="response_filter_test.cc" compile="1" resource="0"
+              file="Source/browser/response_filter_test.cc"/>
+        <FILE id="cTDRfE" name="response_filter_test.h" compile="0" resource="0"
+              file="Source/browser/response_filter_test.h"/>
+        <FILE id="cM8AQB" name="root_window.cc" compile="1" resource="0" file="Source/browser/root_window.cc"/>
+        <FILE id="m5grgH" name="root_window.h" compile="0" resource="0" file="Source/browser/root_window.h"/>
+        <FILE id="TzcOL5" name="root_window_manager.cc" compile="1" resource="0"
+              file="Source/browser/root_window_manager.cc"/>
+        <FILE id="GvWxW9" name="root_window_manager.h" compile="0" resource="0"
+              file="Source/browser/root_window_manager.h"/>
+        <FILE id="VBQUfZ" name="root_window_win.cc" compile="1" resource="0"
+              file="Source/browser/root_window_win.cc"/>
+        <FILE id="ieKGRm" name="root_window_win.h" compile="0" resource="0"
+              file="Source/browser/root_window_win.h"/>
+        <FILE id="HTr9SZ" name="scheme_test.cc" compile="1" resource="0" file="Source/browser/scheme_test.cc"/>
+        <FILE id="VaUSOn" name="scheme_test.h" compile="0" resource="0" file="Source/browser/scheme_test.h"/>
+        <FILE id="BCHoxR" name="temp_window.h" compile="0" resource="0" file="Source/browser/temp_window.h"/>
+        <FILE id="qe4h2G" name="temp_window_win.cc" compile="1" resource="0"
+              file="Source/browser/temp_window_win.cc"/>
+        <FILE id="PE7AQg" name="temp_window_win.h" compile="0" resource="0"
+              file="Source/browser/temp_window_win.h"/>
+        <FILE id="rnN5UF" name="test_runner.cc" compile="1" resource="0" file="Source/browser/test_runner.cc"/>
+        <FILE id="huYrbl" name="test_runner.h" compile="0" resource="0" file="Source/browser/test_runner.h"/>
+        <FILE id="EXBBti" name="urlrequest_test.cc" compile="1" resource="0"
+              file="Source/browser/urlrequest_test.cc"/>
+        <FILE id="ECFAfF" name="urlrequest_test.h" compile="0" resource="0"
+              file="Source/browser/urlrequest_test.h"/>
+        <FILE id="e8Vmhl" name="util_win.cc" compile="1" resource="0" file="Source/browser/util_win.cc"/>
+        <FILE id="ueNccG" name="util_win.h" compile="0" resource="0" file="Source/browser/util_win.h"/>
+        <FILE id="MlQMvp" name="window_test.cc" compile="1" resource="0" file="Source/browser/window_test.cc"/>
+        <FILE id="OFyNnq" name="window_test.h" compile="0" resource="0" file="Source/browser/window_test.h"/>
+        <FILE id="aQj44n" name="window_test_win.cc" compile="1" resource="0"
+              file="Source/browser/window_test_win.cc"/>
+      </GROUP>
+      <FILE id="qyUYKp" name="cefsimple_win.cpp" compile="1" resource="0"
+            file="Source/cefsimple_win.cpp"/>
+      <FILE id="b2yv0G" name="simple_app.cpp" compile="1" resource="0" file="Source/simple_app.cpp"/>
+      <FILE id="q1Ey1Z" name="simple_app.h" compile="0" resource="0" file="Source/simple_app.h"/>
+      <FILE id="IsHYVu" name="simple_handler.cpp" compile="1" resource="0"
+            file="Source/simple_handler.cpp"/>
+      <FILE id="N9nqe6" name="simple_handler.h" compile="0" resource="0"
+            file="Source/simple_handler.h"/>
+      <FILE id="ffizAx" name="simple_handler_win.cpp" compile="1" resource="0"
+            file="Source/simple_handler_win.cpp"/>
+      <FILE id="qWhYNN" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="ZoGDlN" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="O8ymM9" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="siBuoj" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" postbuildCommand="&#13;&#10;# This script takes the build product and copies it to the AU, VST, VST3, RTAS and AAX folders, depending on &#13;&#10;# which plugin types you've built&#13;&#10;&#13;&#10;original=$CONFIGURATION_BUILD_DIR/$FULL_PRODUCT_NAME&#13;&#10;&#13;&#10;# this looks inside the binary to detect which platforms are needed.. &#13;&#10;copyAU=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'AudioUnit' | wc -l&#96;&#13;&#10;copyVST=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'VSTPlugin' | wc -l&#96;&#13;&#10;copyVST3=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'GetPluginFactory' | wc -l&#96;&#13;&#10;copyRTAS=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'CProcess' | wc -l&#96;&#13;&#10;copyAAX=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'ACFStartup' | wc -l&#96;&#13;&#10;&#13;&#10;if [ $copyAU -gt 0 ]; then&#13;&#10;  echo &quot;Copying to AudioUnit folder...&quot;&#13;&#10;  AUDir=~/Library/Audio/Plug-Ins/Components&#13;&#10;  mkdir -p &quot;$AUDir&quot;&#13;&#10;  AU=$AUDir/$PRODUCT_NAME.component&#13;&#10;  if [ -d &quot;$AU&quot; ]; then &#13;&#10;    rm -r &quot;$AU&quot;&#13;&#10;  fi&#13;&#10;&#13;&#10;  cp -r &quot;$original&quot; &quot;$AU&quot;&#13;&#10;  sed -i &quot;&quot; -e 's/TDMwPTul/BNDLPTul/g' &quot;$AU/Contents/PkgInfo&quot;&#13;&#10;  sed -i &quot;&quot; -e 's/TDMw/BNDL/g' &quot;$AU/Contents/$INFOPLIST_FILE&quot;&#13;&#10;fi&#13;&#10;&#13;&#10;if [ $copyVST -gt 0 ]; then&#13;&#10;  echo &quot;Copying to VST folder...&quot;&#13;&#10;  VSTDir=~/Library/Audio/Plug-Ins/VST&#13;&#10;  mkdir -p &quot;$VSTDir&quot;&#13;&#10;  VST=$VSTDir/$PRODUCT_NAME.vst&#13;&#10;  if [ -d &quot;$VST&quot; ]; then &#13;&#10;    rm -r &quot;$VST&quot;&#13;&#10;  fi&#13;&#10;&#13;&#10;  cp -r &quot;$original&quot; &quot;$VST&quot;&#13;&#10;  sed -i &quot;&quot; -e 's/TDMwPTul/BNDLPTul/g' &quot;$VST/Contents/PkgInfo&quot;&#13;&#10;  sed -i &quot;&quot; -e 's/TDMw/BNDL/g' &quot;$VST/Contents/$INFOPLIST_FILE&quot;&#13;&#10;fi&#13;&#10;&#13;&#10;if [ $copyVST3 -gt 0 ]; then&#13;&#10;  echo &quot;Copying to VST3 folder...&quot;&#13;&#10;  VST3Dir=~/Library/Audio/Plug-Ins/VST3&#13;&#10;  mkdir -p &quot;$VST3Dir&quot;&#13;&#10;  VST3=$VST3Dir/$PRODUCT_NAME.vst3&#13;&#10;  if [ -d &quot;$VST3&quot; ]; then &#13;&#10;    rm -r &quot;$VST3&quot;&#13;&#10;  fi&#13;&#10;&#13;&#10;  cp -r &quot;$original&quot; &quot;$VST3&quot;&#13;&#10;  sed -i &quot;&quot; -e 's/TDMwPTul/BNDLPTul/g' &quot;$VST3/Contents/PkgInfo&quot;&#13;&#10;  sed -i &quot;&quot; -e 's/TDMw/BNDL/g' &quot;$VST3/Contents/$INFOPLIST_FILE&quot;&#13;&#10;fi&#13;&#10;&#13;&#10;if [ $copyRTAS -gt 0 ]; then&#13;&#10;  echo &quot;Copying to RTAS folder...&quot;&#13;&#10;  RTASDir=/Library/Application\ Support/Digidesign/Plug-Ins&#13;&#10;  if [ -d &quot;$RTASDir&quot; ]; then&#13;&#10;    RTAS=$RTASDir/$PRODUCT_NAME.dpm&#13;&#10;    if [ -d &quot;$RTAS&quot; ]; then&#13;&#10;      rm -r &quot;$RTAS&quot;&#13;&#10;    fi&#13;&#10;&#13;&#10;    cp -r &quot;$original&quot; &quot;$RTAS&quot;&#13;&#10;  fi&#13;&#10;fi&#13;&#10;&#13;&#10;if [ $copyAAX -gt 0 ]; then&#13;&#10;  echo &quot;Copying to AAX folder...&quot;&#13;&#10;&#13;&#10;  if [ -d &quot;/Applications/ProTools_3PDev/Plug-Ins&quot; ]; then&#13;&#10;    AAX1=&quot;/Applications/ProTools_3PDev/Plug-Ins/$PRODUCT_NAME.aaxplugin&quot;&#13;&#10;&#13;&#10;    if [ -d &quot;$AAX1&quot; ]; then&#13;&#10;      rm -r &quot;$AAX1&quot;&#13;&#10;    fi&#13;&#10;&#13;&#10;    cp -R -H &quot;$original&quot; &quot;$AAX1&quot;&#13;&#10;  fi&#13;&#10;&#13;&#10;  if [ -d &quot;/Library/Application Support/Avid/Audio/Plug-Ins&quot; ]; then&#13;&#10;    AAX2=&quot;/Library/Application Support/Avid/Audio/Plug-Ins/$PRODUCT_NAME.aaxplugin&quot;&#13;&#10;&#13;&#10;    if [ -d &quot;$AAX2&quot; ]; then&#13;&#10;      rm -r &quot;$AAX2&quot;&#13;&#10;    fi&#13;&#10;&#13;&#10;    cp -R -H &quot;$original&quot; &quot;$AAX2&quot;&#13;&#10;  fi&#13;&#10;fi&#13;&#10;"
+               vstFolder="" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="MapleLoops"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="MapleLoops"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/SDKS/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013" vstFolder="C:\SDKS\vstsdk2.4"
+            vst3Folder="C:\SDKS\VST3 SDK" externalLibraries="libcef_dll_wrapper.lib&#10;libcef.lib&#10;&#10;"
+            extraDefs="NOMINMAX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="MapleLoops" binaryPath=""/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="MapleLoops" binaryPath=""/>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" binaryPath="" headerPath="..\..\..\Library\CEF\x64&#10;"
+                       libraryPath="..\..\..\Library\CEF\x64\Debug&#10;..\..\..\Library\CEF\x64\libcef_dll\Debug"
+                       useRuntimeLibDLL="0" targetName="MapleLoops" characterSet="Unicode"
+                       postbuildCommand="copy /y &quot;C:\Users\Isaac\Documents\MapleLoops\MapleLoopsVst\Builds\VisualStudio2013\x64\Debug\MapleLoops.dll&quot; &quot;C:\Vstplugins\MapleLoops.dll&quot;"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       binaryPath="" headerPath="..\..\..\Library\CEF\x64&#10;" libraryPath="..\..\..\Library\CEF\x64\Release&#10;..\..\..\Library\CEF\x64\libcef_dll\Release"
+                       useRuntimeLibDLL="0" targetName="MapleLoops" characterSet="Unicode"
+                       postbuildCommand=""/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/SDKS/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile" vstFolder="" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="MapleLoops"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="MapleLoops"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/SDKS/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1" overwriteOnSave="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1" overwriteOnSave="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1" overwriteOnSave="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="1"
+            overwriteOnSave="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1" overwriteOnSave="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1" overwriteOnSave="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="1" overwriteOnSave="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1" overwriteOnSave="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>

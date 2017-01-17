@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{740FFC31-9FBE-E88E-7EA9-98057A67B17A}") = "MapleLoops", "MapleLoops.vcxproj", "{47DC74AA-0C6A-824C-65DE-7F2852311BBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47DC74AA-0C6A-824C-65DE-7F2852311BBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47DC74AA-0C6A-824C-65DE-7F2852311BBC}.Debug|Win32.Build.0 = Debug|Win32
+		{47DC74AA-0C6A-824C-65DE-7F2852311BBC}.Release|Win32.ActiveCfg = Release|Win32
+		{47DC74AA-0C6A-824C-65DE-7F2852311BBC}.Release|Win32.Build.0 = Release|Win32
+		{47DC74AA-0C6A-824C-65DE-7F2852311BBC}.Debug|x64.ActiveCfg = Debug|x64
+		{47DC74AA-0C6A-824C-65DE-7F2852311BBC}.Debug|x64.Build.0 = Debug|x64
+		{47DC74AA-0C6A-824C-65DE-7F2852311BBC}.Release|x64.ActiveCfg = Release|x64
+		{47DC74AA-0C6A-824C-65DE-7F2852311BBC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

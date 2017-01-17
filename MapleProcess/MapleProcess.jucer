@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="P13JUg" name="MapleProcess" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="ca.maplepost.MapleProcess" includeBinaryInAppConfig="1"
+              jucerVersion="4.1.0">
+  <MAINGROUP id="FQuhWV" name="MapleProcess">
+    <GROUP id="{CB989D98-FA6D-0427-18C2-61505A9C3587}" name="Source">
+      <FILE id="vevKY8" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="MapleProcess"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="MapleProcess"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="~/SDKS/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013" extraDefs="NOMINMAX" externalLibraries="libcef_dll_wrapper.lib&#10;libcef.lib&#10;&#10;">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="MapleProcess" headerPath="..\..\..\Library\CEF\x64&#10;"
+                       libraryPath="..\..\..\Library\CEF\x64\Debug&#10;..\..\..\Library\CEF\x64\libcef_dll\Debug"
+                       useRuntimeLibDLL="0"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="MapleProcess" headerPath="..\..\..\Library\CEF\x64&#10;"
+                       libraryPath="..\..\..\Library\CEF\x64\Release&#10;..\..\..\Library\CEF\x64\libcef_dll\Release"
+                       useRuntimeLibDLL="0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/SDKS/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="MapleProcess"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="MapleProcess"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="~/SDKS/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="~/SDKS/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
